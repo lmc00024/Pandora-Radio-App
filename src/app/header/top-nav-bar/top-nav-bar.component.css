@@ -17,4 +17,8 @@ button.btn:hover {
     border-radius: 0%;
 }
 
-/* maybe make the search bar have a bigger radius the one col */
+/* search bar large and radius */
+input.form-control.me-2 {
+    width: 100%;
+    border-radius: 1.625rem;
+}
