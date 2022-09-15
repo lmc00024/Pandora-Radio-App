@@ -1,0 +1,9 @@
+a.nav-link.active  {
+    color: white;
+    font-size: 1rem;
+}
+
+span.navbar-text {
+    color: gray;
+    font-size: 1rem;
+}
