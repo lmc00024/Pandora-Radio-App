@@ -1,9 +1,13 @@
 a.nav-link.active  {
     color: white;
-    font-size: 1rem;
+    font-size: .75rem;
+}
+
+navbar {
+    color: black;
 }
 
 span.navbar-text {
     color: gray;
-    font-size: 1rem;
+    font-size: .6rem;
 }
