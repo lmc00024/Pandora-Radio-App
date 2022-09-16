@@ -1,3 +1,18 @@
+div.me-auto{
+    padding-right: 300px;
+}
+
+div.mx-auto{
+    padding-left: 200px;
+    padding-right: 500px;
+    width: 400%;
+}
+
+a.helper-icon {
+
+    color: white;
+    text-align: right;
+}
 
 button.btn {
 
@@ -17,8 +32,11 @@ button.btn:hover {
     border-radius: 0%;
 }
 
+
+
+
 /* search bar large and radius */
-input.form-control.me-2 {
+input.form-control.mx-2 {
     width: 100%;
     border-radius: 1.625rem;
 }
