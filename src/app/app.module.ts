@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopNavBarComponent } from './header/top-nav-bar/top-nav-bar.component';
 import { FootNavBarComponent } from './footer/foot-nav-bar/foot-nav-bar.component';
+import { SubscriptionCardComponent } from './subscription/subscription-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
-    FootNavBarComponent
+    FootNavBarComponent,
+    SubscriptionCardComponent
   ],
   imports: [
     BrowserModule,
