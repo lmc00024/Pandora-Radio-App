@@ -1,0 +1,58 @@
+/* card one stuff */
+
+/* card 2 stuff */
+
+/* card 3 stuff */
+
+
+
+/* width = 100% for cards */
+h2.pandora {
+    font-size: 1.5rem;
+    align-content: center;
+    color: #3668ff;
+}
+h2.plus {
+    font-size: 1.5rem;
+    color: #9b00dc;
+}
+h2.premium {
+    font-size: 1.5rem;
+    color: #6723e7;
+}
+
+button.btn-pandora {
+    color: white;
+    width: 100%;
+    background-color: #3668ff;
+}
+
+button.btn-plus {
+    
+    width: 100%;
+    color: white;
+    background-color: #9b00dc;
+}
+
+button.btn-premium {
+    color: white;
+    width: 100%;
+    background-color: #6723e7;
+}
+
+h1.card-text-primary {
+    font-size: 2rem;
+    line-height: 3.6rem;
+}
+
+div.card {
+    width: 32rem;
+}
+
+button {
+    border-radius: 1.625rem;
+}
+
+/* li.active {
+    
+} */
