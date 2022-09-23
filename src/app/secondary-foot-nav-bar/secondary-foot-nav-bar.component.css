@@ -1,0 +1,15 @@
+
+navbar-dark {
+    background-color: rgba(0,0,0,.4);
+}
+
+button {
+    color: white;
+    text-decoration: none;
+    background-color: hsla(0,0%,100%,.2);
+    border: none;
+}
+
+a {
+    color: white;
+}

@@ -3,11 +3,23 @@ a.nav-link.active  {
     font-size: .75rem;
 }
 
-navbar {
-    color: black;
-}
-
 span.navbar-text {
     color: gray;
     font-size: .6rem;
+}
+
+nav.navbar-expand-lg.top {
+    width: 100%;
+    background-color: hsla(0,0%,100%,.2);
+}
+
+button {
+    color: white;
+    text-decoration: none;
+    background-color: hsla(0,0%,100%,.2);
+    border: none;
+}
+
+a {
+    color: white;
 }
