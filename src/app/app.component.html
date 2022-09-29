@@ -1,4 +1,11 @@
 <app-top-nav-bar> Loading... </app-top-nav-bar>
 <app-subscription-card> Loading...</app-subscription-card>
+<div class ="container-fluid d-flex">
+    <div *ngFor="let x of products">
+        <app-info-card img ={{x.img}} header={{x.header}} body ={{x.body}}>
+            loading...
+        </app-info-card>
+    </div>
+</div>\
 <!-- <app-secondary-foot-nav-bar> Loading...</app-secondary-foot-nav-bar> -->
 <app-foot-nav-bar> Loading...</app-foot-nav-bar>
