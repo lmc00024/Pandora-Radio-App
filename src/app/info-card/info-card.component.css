@@ -1,0 +1,16 @@
+div.card-body {
+    background-color: black;
+    color: white;
+}
+
+h3.card-title {
+    padding-top: 1.5rem;
+    font-size: 1.6rem;
+    line-height: 2.0rem;
+}
+
+p.card-text {
+    padding-top: 0.5rem;
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+}
