@@ -7,8 +7,11 @@ import { TopNavBarComponent } from './header/top-nav-bar/top-nav-bar.component';
 import { FootNavBarComponent } from './footer/foot-nav-bar/foot-nav-bar.component';
 import { SubscriptionCardComponent } from './subscription/subscription-card.component';
 import { InfoCardComponent } from './info-card/info-card.component';
-import { AboutLayoutComponent } from './subscription/about-layout.component';
-// import { SecondaryFootNavBarComponent } from './secondary-foot-nav-bar/secondary-foot-nav-bar.component';
+import { AboutLayoutComponent } from './layouts/about-layout/about-layout.component';
+import { HomeLayoutComponent } from './layouts/home-layout/home-layout.component';
+import { GiftLayoutComponent } from './layouts/gift-layout/gift-layout.component';
+import { CareerLayoutComponent } from './layouts/career-layout/career-layout.component';
+import { LoginLayoutComponent } from './layouts/login-layout/login-layout.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,11 @@ import { AboutLayoutComponent } from './subscription/about-layout.component';
     FootNavBarComponent,
     SubscriptionCardComponent,
     InfoCardComponent,
-    AboutLayoutComponent
+    AboutLayoutComponent,
+    HomeLayoutComponent,
+    GiftLayoutComponent,
+    CareerLayoutComponent,
+    LoginLayoutComponent
   ],
   imports: [
     BrowserModule,
