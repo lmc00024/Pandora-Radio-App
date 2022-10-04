@@ -7,6 +7,7 @@ import { TopNavBarComponent } from './header/top-nav-bar/top-nav-bar.component';
 import { FootNavBarComponent } from './footer/foot-nav-bar/foot-nav-bar.component';
 import { SubscriptionCardComponent } from './subscription/subscription-card.component';
 import { InfoCardComponent } from './info-card/info-card.component';
+import { AboutLayoutComponent } from './subscription/about-layout.component';
 // import { SecondaryFootNavBarComponent } from './secondary-foot-nav-bar/secondary-foot-nav-bar.component';
 
 @NgModule({
@@ -15,7 +16,8 @@ import { InfoCardComponent } from './info-card/info-card.component';
     TopNavBarComponent,
     FootNavBarComponent,
     SubscriptionCardComponent,
-    InfoCardComponent
+    InfoCardComponent,
+    AboutLayoutComponent
   ],
   imports: [
     BrowserModule,
