@@ -12,6 +12,21 @@ import { HomeLayoutComponent } from './layouts/home-layout/home-layout.component
 import { GiftLayoutComponent } from './layouts/gift-layout/gift-layout.component';
 import { CareerLayoutComponent } from './layouts/career-layout/career-layout.component';
 import { LoginLayoutComponent } from './layouts/login-layout/login-layout.component';
+import { AboutHeaderComponent } from './about/about-header/about-header.component';
+import { AboutFooterComponent } from './about/about-footer/about-footer.component';
+import { AboutSidebarComponent } from './about/about-sidebar/about-sidebar.component';
+import { AboutBodyComponent } from './about/about-body/about-body.component';
+import { GiftHeaderComponent } from './gift/gift-header/gift-header.component';
+import { GiftFooterComponent } from './gift/gift-footer/gift-footer.component';
+import { GiftBodyComponent } from './gift/gift-body/gift-body.component';
+import { CareersHeaderComponent } from './careers/careers-header/careers-header.component';
+import { CareersFooterComponent } from './careers/careers-footer/careers-footer.component';
+import { CareersBodyComponent } from './careers/careers-body/careers-body.component';
+import { CareersTopFooterComponent } from './careers/careers-top-footer/careers-top-footer.component';
+import { LoginHeaderComponent } from './login/login-header/login-header.component';
+import { LoginFooterComponent } from './login/login-footer/login-footer.component';
+import { LoginInputComponent } from './login/login-input/login-input.component';
+import { LoginBottomHeaderComponent } from './login/login-bottom-header/login-bottom-header.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +39,22 @@ import { LoginLayoutComponent } from './layouts/login-layout/login-layout.compon
     HomeLayoutComponent,
     GiftLayoutComponent,
     CareerLayoutComponent,
-    LoginLayoutComponent
+    LoginLayoutComponent,
+    AboutHeaderComponent,
+    AboutFooterComponent,
+    AboutSidebarComponent,
+    AboutBodyComponent,
+    GiftHeaderComponent,
+    GiftFooterComponent,
+    GiftBodyComponent,
+    CareersHeaderComponent,
+    CareersFooterComponent,
+    CareersBodyComponent,
+    CareersTopFooterComponent,
+    LoginHeaderComponent,
+    LoginFooterComponent,
+    LoginInputComponent,
+    LoginBottomHeaderComponent
   ],
   imports: [
     BrowserModule,

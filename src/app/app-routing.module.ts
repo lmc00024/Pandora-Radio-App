@@ -10,11 +10,11 @@ import { LoginLayoutComponent } from './layouts/login-layout/login-layout.compon
 
 const routes: Routes = [
   {path: '', component: HomeLayoutComponent},
-  {path: 'Home', component: HomeLayoutComponent},
-  {path: 'About', component: AboutLayoutComponent},
-  {path: "Career", component: CareerLayoutComponent},
-  {path: 'Gift', component: GiftLayoutComponent},
-  {path: "Login", component: LoginLayoutComponent},
+  {path: 'home', component: HomeLayoutComponent},
+  {path: 'about', component: AboutLayoutComponent},
+  {path: "careers", component: CareerLayoutComponent},
+  {path: 'gifts', component: GiftLayoutComponent},
+  {path: "login", component: LoginLayoutComponent},
   
 ];
 
