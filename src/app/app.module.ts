@@ -27,7 +27,7 @@ import { LoginHeaderComponent } from './login/login-header/login-header.componen
 import { LoginFooterComponent } from './login/login-footer/login-footer.component';
 import { LoginInputComponent } from './login/login-input/login-input.component';
 import { LoginBottomHeaderComponent } from './login/login-bottom-header/login-bottom-header.component';
-import { AboutContactComponent } from './about/about-contact/about-contact.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +56,7 @@ import { AboutContactComponent } from './about/about-contact/about-contact.compo
     LoginFooterComponent,
     LoginInputComponent,
     LoginBottomHeaderComponent,
-    AboutContactComponent
+    ContactComponent
   ],
   imports: [
     BrowserModule,

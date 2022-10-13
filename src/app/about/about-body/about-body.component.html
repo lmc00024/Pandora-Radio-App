@@ -1,10 +1,57 @@
-<div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a>
+<div class="row">
+  <div class="container d-flex flex-column">
+    <div class="container-fluid">
+      <!-- d-flex flex-sm-column flex-row flex-nowrap bg-light align-items-center -->
+      <ul style="list-style:none;" class="d-flex flex-column me-auto mb-2 mb-lg-0">
+        <li class="item">
+          <a class="link link--active visited" aria-current="page" routerLink="about">About</a>
+        </li>
+        <li class="item">
+          <a class="link link--active" aria-current="page" routerLink="contact">Contact</a>
+        </li>
+        <li class="item">
+          <a class="link">Management</a>
+        </li>
+        <li class="item">
+          <a class="link">Board</a>
+        </li>
+      </ul>
     </div>
   </div>
-  
+
+
+  <div class="container d-flex flex-column body">
+    <div class="d-flex flex-column" style="width: 50rem;">
+      <div class="body">
+        <h1 class="title">About Pandora</h1>
+        <p class="text">Pandora, a subsidiary of SiriusXM, is the largest
+          ad-supported audio entertainment streaming service in the U.S. Pandora
+          provides consumers a uniquely-personalized music and podcast listening
+          experience with its proprietary Music Genome Project® and Podcast Genome
+          Project® technology. Pandora is also the leading digital audio advertising
+          platform in the U.S. Through its own Pandora service, its AdsWizz platform,
+          and third party services, such as SoundCloud, the Company connects brands to
+          the largest ad-supported streaming audio marketplace in the country. Pandora
+          is available through its mobile app, on the web at www.pandora.com, and
+          integrations with more than 2,000 connected products.</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="app_items">
+        <a class="navbar-brand" href="#">
+          <img src="assets/apple_appstore_badge.svg" alt="" width="100" height="34">
+        </a>
+        <a class="navbar-brand" href="#">
+          <img src="assets/google_play_badge.png" alt="" width="100" height="34">
+        </a>
+        <a class="navbar-brand" href="#">
+          <img src="assets/amazon_appstore_white.png" alt="" width="100" height="34">
+        </a>
+        <a class="navbar-brand" href="#">
+          <img src="assets/get_it_from_microsoft.png" alt="" width="100" height="34">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>

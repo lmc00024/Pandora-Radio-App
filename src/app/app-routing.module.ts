@@ -6,7 +6,7 @@ import { CareerLayoutComponent } from './layouts/career-layout/career-layout.com
 import { HomeLayoutComponent } from './layouts/home-layout/home-layout.component';
 import { GiftLayoutComponent } from './layouts/gift-layout/gift-layout.component';
 import { LoginLayoutComponent } from './layouts/login-layout/login-layout.component';
-import { AboutContactComponent } from './about/about-contact/about-contact.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 const routes: Routes = [
@@ -16,7 +16,7 @@ const routes: Routes = [
   {path: "careers", component: CareerLayoutComponent},
   {path: 'gifts', component: GiftLayoutComponent},
   {path: "login", component: LoginLayoutComponent},
-  {path: "contact", component: AboutContactComponent}
+  {path: "contact", component: ContactComponent}
   
 ];
 
