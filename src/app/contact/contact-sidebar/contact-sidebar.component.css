@@ -1,0 +1,13 @@
+a.link--active:visited{
+    color: black;
+}
+
+a.link{
+    color: rgba(0, 0, 0, .6);
+    font-size: .9rem;
+    text-decoration: none;
+}
+
+li.item{
+    padding-bottom: 12px;
+}

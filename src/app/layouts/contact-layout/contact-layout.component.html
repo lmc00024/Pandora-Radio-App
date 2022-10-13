@@ -1,4 +1,13 @@
 <app-contact-header> Loading...</app-contact-header>
-<app-contact-body> Loading...</app-contact-body>
+<app-contact-sidebar> Loading...</app-contact-sidebar>
+<div class ="container-fluid d-flex">
+    <div class="row">
+        <div class="col-md-4" *ngFor="let x of products">
+            <app-contact-body city ={{x.city}} first_line={{x.first_line}} second_line={{x.second_line}} third_line={{x.third_line}} tel ={{x.tel}}>
+                loading...
+            </app-contact-body>
+        </div> 
+    </div>
+</div>
 <app-contact-footer> Loading...</app-contact-footer>
 

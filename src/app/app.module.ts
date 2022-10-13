@@ -31,6 +31,7 @@ import { ContactLayoutComponent } from './layouts/contact-layout/contact-layout.
 import { ContactHeaderComponent } from './contact/contact-header/contact-header.component';
 import { ContactBodyComponent } from './contact/contact-body/contact-body.component';
 import { ContactFooterComponent } from './contact/contact-footer/contact-footer.component';
+import { ContactSidebarComponent } from './contact/contact-sidebar/contact-sidebar.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { ContactFooterComponent } from './contact/contact-footer/contact-footer.
     ContactLayoutComponent,
     ContactHeaderComponent,
     ContactBodyComponent,
-    ContactFooterComponent
+    ContactFooterComponent,
+    ContactSidebarComponent
   ],
   imports: [
     BrowserModule,
