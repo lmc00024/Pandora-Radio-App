@@ -32,6 +32,8 @@ import { ContactHeaderComponent } from './contact/contact-header/contact-header.
 import { ContactBodyComponent } from './contact/contact-body/contact-body.component';
 import { ContactFooterComponent } from './contact/contact-footer/contact-footer.component';
 import { ContactSidebarComponent } from './contact/contact-sidebar/contact-sidebar.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './login/user-info/user-info.component'
 
 @NgModule({
   declarations: [
@@ -64,11 +66,13 @@ import { ContactSidebarComponent } from './contact/contact-sidebar/contact-sideb
     ContactHeaderComponent,
     ContactBodyComponent,
     ContactFooterComponent,
-    ContactSidebarComponent
+    ContactSidebarComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
