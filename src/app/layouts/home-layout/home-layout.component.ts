@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { InfoCardItemModel } from 'src/app/info-card/infocard-item.model';
-import { mock_card_list } from 'src/app/info-card/mock-card-list';
+import { ProductService } from 'src/app/info-card/app.service';
 
 @Component({
   selector: 'app-home-layout',
@@ -11,13 +11,17 @@ export class HomeLayoutComponent implements OnInit {
 
   
   products: InfoCardItemModel[] = []
-  constructor(){
-  for(var x of mock_card_list){
-    console.log(x)
-    this.products.push(x)
-  }
+  constructor(private productsService:ProductService){
+
+  
   }
   ngOnInit(): void {
+    this.productsService.getProducts().subscribe((data: InfoCardItemModel[])=>{
+      for (var x of data) {
+        console.log(x)
+        this.products.push(x)
+      }
+    })
   }
 
 }

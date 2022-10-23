@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ContactCardItemModel } from 'src/app/contact/contact-body/contact-item.model';
-import { mock_contact_card_list } from 'src/app/contact/contact-body/mock-contact-card';
+import { ProductService } from 'src/app/info-card/app.service';
 
 @Component({
   selector: 'app-contact-layout',
@@ -10,12 +10,15 @@ import { mock_contact_card_list } from 'src/app/contact/contact-body/mock-contac
 export class ContactLayoutComponent implements OnInit {
 
   products: ContactCardItemModel[] = []
-  constructor() {
-  for(var x of mock_contact_card_list){
-    console.log(x)
-    this.products.push(x)
-  }
+  constructor(private productsService:ProductService) {
+  
   }
   ngOnInit(): void {
+    this.productsService.getLocations().subscribe((data: ContactCardItemModel[])=>{
+      for (var x of data) {
+        console.log(x)
+        this.products.push(x)
+      }
+    })
   }
 }
