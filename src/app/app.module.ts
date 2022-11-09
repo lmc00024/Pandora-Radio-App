@@ -33,7 +33,7 @@ import { ContactBodyComponent } from './contact/contact-body/contact-body.compon
 import { ContactFooterComponent } from './contact/contact-footer/contact-footer.component';
 import { ContactSidebarComponent } from './contact/contact-sidebar/contact-sidebar.component';
 import { HttpClientModule } from '@angular/common/http';
-import { UserInfoComponent } from './login/user-info/user-info.component'
+import { UserInfoComponent } from './login/user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -67,7 +67,8 @@ import { UserInfoComponent } from './login/user-info/user-info.component'
     ContactBodyComponent,
     ContactFooterComponent,
     ContactSidebarComponent,
-    UserInfoComponent
+    UserInfoComponent,
+
   ],
   imports: [
     BrowserModule,
