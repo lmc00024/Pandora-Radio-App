@@ -34,6 +34,11 @@ import { ContactFooterComponent } from './contact/contact-footer/contact-footer.
 import { ContactSidebarComponent } from './contact/contact-sidebar/contact-sidebar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './login/user-info/user-info.component';
+import { FormsModule } from '@angular/forms';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore/';
+import { AngularFireModule } from '@angular/fire/compat';
+import { environment } from 'src/environments/environment';
+
 
 @NgModule({
   declarations: [
@@ -73,7 +78,11 @@ import { UserInfoComponent } from './login/user-info/user-info.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
