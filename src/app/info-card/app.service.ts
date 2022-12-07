@@ -30,4 +30,6 @@ export class ProductService {
     getOneLocation(index:number){
         return this.http.get<ContactCardItemModel>(this.BaseUrl + this.locationsEndPoint + "/" + index + ".json")
     }
+
+   
 }

@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "pandora-app-6ecf2"
+  },
+  "targets": {
+    "pandora-app-6ecf2": {
+      "hosting": {
+        "hello-world-app": [
+          "pandora-app-6ecf2"
+        ]
+      }
+    }
   }
 }

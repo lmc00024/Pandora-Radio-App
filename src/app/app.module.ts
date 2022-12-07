@@ -37,7 +37,12 @@ import { UserInfoComponent } from './login/user-info/user-info.component';
 import { FormsModule } from '@angular/forms';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore/';
 import { AngularFireModule } from '@angular/fire/compat';
+
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { provideAuth,getAuth } from '@angular/fire/auth';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { environment } from 'src/environments/environment';
+import { AddItemComponent } from './info-card/add-item/add-item.component';
 
 
 @NgModule({
@@ -73,6 +78,7 @@ import { environment } from 'src/environments/environment';
     ContactFooterComponent,
     ContactSidebarComponent,
     UserInfoComponent,
+    AddItemComponent,
 
   ],
   imports: [
@@ -81,8 +87,8 @@ import { environment } from 'src/environments/environment';
     HttpClientModule,
     FormsModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
-
+    AngularFirestoreModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

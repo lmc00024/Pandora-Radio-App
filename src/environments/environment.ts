@@ -3,7 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    projectId: 'pandora-app-6ecf2',
+    appId: '1:267823474289:web:a604cb93d0ee11ed325dd0',
+    databaseURL: 'https://pandora-app-6ecf2-default-rtdb.firebaseio.com',
+    storageBucket: 'pandora-app-6ecf2.appspot.com',
+    apiKey: 'AIzaSyBXFSodr9mXJnCQIOPcZ9noj_NIzuBIKBc',
+    authDomain: 'pandora-app-6ecf2.firebaseapp.com',
+    messagingSenderId: '267823474289',
+    measurementId: 'G-LT0K0WZWJ2',
+  },
+  
 };
 
 /*
