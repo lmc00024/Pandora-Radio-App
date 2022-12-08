@@ -43,6 +43,7 @@ import { provideAuth,getAuth } from '@angular/fire/auth';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { environment } from 'src/environments/environment';
 import { AddItemComponent } from './info-card/add-item/add-item.component';
+import { AuthComponent } from './auth/auth/auth.component';
 
 
 @NgModule({
@@ -79,6 +80,7 @@ import { AddItemComponent } from './info-card/add-item/add-item.component';
     ContactSidebarComponent,
     UserInfoComponent,
     AddItemComponent,
+    AuthComponent,
 
   ],
   imports: [

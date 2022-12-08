@@ -8,6 +8,8 @@ import { GiftLayoutComponent } from './layouts/gift-layout/gift-layout.component
 import { LoginLayoutComponent } from './layouts/login-layout/login-layout.component';
 import { ContactLayoutComponent } from './layouts/contact-layout/contact-layout.component';
 import { AddItemComponent } from './info-card/add-item/add-item.component';
+import { Auth } from '@angular/fire/auth';
+import { AuthComponent } from './auth/auth/auth.component';
 
 const routes: Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -17,7 +19,8 @@ const routes: Routes = [
   {path: 'gifts', component: GiftLayoutComponent},
   {path: "login", component: LoginLayoutComponent},
   {path: "contact", component: ContactLayoutComponent},
-  {path: "forms", component: AddItemComponent}
+  {path: "forms", component: AddItemComponent},
+  {path: "auth", component: AuthComponent}
   
 ];
 
