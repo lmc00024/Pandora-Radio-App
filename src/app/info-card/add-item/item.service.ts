@@ -10,6 +10,7 @@ import { InfoCardItemModel } from "../infocard-item.model";
 export class ItemService {
     private BaseUrl: string = "https://pandora-app-6ecf2-default-rtdb.firebaseio.com/"
     private itemsEndPoint = "items";
+    
 
     constructor(private db:AngularFireDatabase){}
     

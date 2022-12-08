@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { getAuth, UserCredential } from 'firebase/auth';
 import { Observable } from 'rxjs';
 import { AuthService } from './auth.service';
 import { AuthResponse } from './authResponse';
@@ -12,7 +13,7 @@ import { AuthResponse } from './authResponse';
 export class AuthComponent implements OnInit {
 
   public buttonClicked!:string;
-  private authObservable!: Observable<AuthResponse>;
+  private authObservable!: Promise<UserCredential>;
 
   constructor(private authService:AuthService) {
       
@@ -34,15 +35,18 @@ export class AuthComponent implements OnInit {
     }
     
       
-    this.authObservable.subscribe(
-      (data: AuthResponse) => {
+    this.authObservable.then(
+      (data: UserCredential) => {
         console.log(data);
-      },
-      (error: any) => {
-        console.log(error.error);
       }
-    );
+    ).catch((error: any) => {
+      console.log(error.error);
+    });
     data.resetForm();
   }
   
+public isSignedIn() {
+  return getAuth().currentUser != null;
+}
+
 }
